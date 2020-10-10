@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a38a5ed.chunk.css",
+    "main.js": "/static/js/main.b466c12d.chunk.js",
+    "main.js.map": "/static/js/main.b466c12d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.155efc5d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.155efc5d.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.29aa9831.chunk.js": "/static/js/2.29aa9831.chunk.js",
+    "static/js/2.29aa9831.chunk.js.map": "/static/js/2.29aa9831.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.baa3db1b463b82cdb01bf88140989ba1.js": "/precache-manifest.baa3db1b463b82cdb01bf88140989ba1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.4a38a5ed.chunk.css.map": "/static/css/main.4a38a5ed.chunk.css.map",
+    "static/js/2.29aa9831.chunk.js.LICENSE.txt": "/static/js/2.29aa9831.chunk.js.LICENSE.txt",
+    "static/media/Homepage.css": "/static/media/intro-bg.66bad974.jpg",
+    "static/media/Wifi.css": "/static/media/logo.634fb019.png",
+    "static/media/pysqd.jpg": "/static/media/pysqd.3c96decd.jpg",
+    "static/media/wechat-qr.jpg": "/static/media/wechat-qr.e32392ea.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.155efc5d.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.29aa9831.chunk.js",
+    "static/css/main.4a38a5ed.chunk.css",
+    "static/js/main.b466c12d.chunk.js"
+  ]
+}
