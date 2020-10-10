@@ -1,0 +1,259 @@
+/**
+ * Homepage - Navigation.
+ *
+ * Contains styles for the navigation section.
+ */
+#navigation {
+    background-color: #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    letter-spacing: 1px;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+#navigation a {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#navigation a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#navigation .navbar-brand {
+    font-size: 1.1rem;
+    line-height: 1.25;
+}
+
+#navigation .navbar-brand:hover {
+    color: #ffffff;
+}
+
+#navigation .navbar-brand .logo {
+    background: url(../images/logo.png) no-repeat;
+    width: 30px;
+    height: 22px;
+    background-size: 30px;
+    position: absolute;
+}
+
+#navigation .navbar-brand .logo-text {
+    padding-left: 38px;
+}
+
+#navigation .navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#navigation .navbar-toggler .navbar-toggler-icon {
+    color: #fff;
+}
+
+#navigation #starsNav {
+    margin: 5px 0 0;
+}
+
+#navigation #starsNav .navbar-nav {
+}
+
+#navigation #starsNav .navbar-nav .nav-item {
+}
+
+#navigation #starsNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.85rem;
+    padding: 8px;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+
+#navigation #starsNav .navbar-nav .nav-item .nav-link:hover {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    outline: none;
+}
+
+#navigation #starsNav .navbar-nav .nav-item .nav-link:focus,
+#navigation #starsNav .navbar-nav .nav-item .nav-link:active {
+    background-color: transparent;
+    outline: none;
+}
+
+#navigation #starsNav .navbar-nav .nav-item .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+#navigation #starsNav .navbar-nav .nav-item .nav-link.active:hover {
+    color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    #navigation {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #navigation.scrolled-to-top {
+        background-color: transparent;
+        padding: 20px 0;
+        border-bottom: 0;
+    }
+
+    #navigation .do-not-display {
+        display: none;
+    }
+
+    #navigation #starsNav {
+        margin: 0;
+    }
+
+    #navigation #starsNav .navbar-nav .nav-item .nav-link {
+        padding: 15px;
+    }
+}
+
+/**
+ * Homepage - Introduction.
+ *
+ * Contains styles for the introduction section.
+ */
+#introduction {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+    text-align: center;
+    background: #000000 url(../images/intro-bg.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#introduction .content {
+}
+
+#introduction .content .brand-heading {
+    font-size: 40px;
+}
+
+#introduction .content .intro-text {
+    font-size: 18px;
+}
+
+@media (min-width: 922px) {
+    #introduction {
+        min-height: 100vh;
+    }
+
+    #introduction .content .brand-heading {
+        font-size: 100px;
+    }
+
+    #introduction .content .intro-text {
+        font-size: 26px;
+    }
+}
+
+/**
+ * Homepage - About.
+ *
+ * Contains styles for the about section.
+ */
+#about {
+    padding-top: 125px;
+}
+
+@media (min-width: 922px) {
+    #about {
+        padding-top: 250px;
+    }
+}
+
+/**
+ * Homepage - Follow.
+ *
+ * Contains styles for the follow section.
+ */
+#follow {
+    padding-top: 125px;
+}
+
+#follow .content {
+    padding: 125px 0;
+    background: #000000 url(../images/follow-bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-width: 922px) {
+    #follow {
+        padding-top: 250px;
+    }
+
+    #follow .content {
+        padding: 150px 0;
+    }
+}
+
+/**
+ * Homepage - Contact.
+ *
+ * Contains styles for the contact section.
+ */
+#contact {
+    padding-top: 125px;
+}
+
+@media (min-width: 922px) {
+    #contact {
+        padding-top: 250px;
+    }
+}
+
+/**
+ * Homepage - Location.
+ *
+ * Contains styles for the location section.
+ */
+#location {
+    padding-top: 125px;
+}
+
+#location .content {
+    padding: 125px 0;
+    background: #000000 url(../images/footer-bg.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-width: 922px) {
+    #location {
+        padding-top: 250px;
+    }
+
+    #location .content {
+        padding: 150px 0;
+    }
+}
+
+/**
+ * Homepage - Copyright.
+ *
+ * Contains styles for the copyright section.
+ */
+#copyright {
+    padding: 60px 0;
+}
+
+#copyright p {
+    margin: 0;
+}

@@ -1,0 +1,69 @@
+{
+    "name": "xingduandianjing.github.io",
+    "displayName": "星端电竞",
+    "description": "星端电竞官方网站",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "private": true,
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "deploy": "gh-pages -d build -r git@github.com:xingduandianjing/xingduandianjing.github.io.git"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/xingduandianjing/xingduandianjing.github.io.git"
+    },
+    "keywords": [
+        "stars-gaming",
+        "website"
+    ],
+    "author": "广州市星端网络科技有限公司",
+    "bugs": {
+        "url": "https://github.com/xingduandianjing/xingduandianjing.github.io/issues"
+    },
+    "homepage": "http://www.stars-gaming.com",
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "engines": {
+        "node": ">=8.10"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.32",
+        "@fortawesome/free-brands-svg-icons": "^5.15.1",
+        "@fortawesome/free-solid-svg-icons": "^5.15.1",
+        "@fortawesome/react-fontawesome": "^0.1.11",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-helmet": "^6.1.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "3.4.3",
+        "react-scroll": "^1.8.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-react": "^7.21.3",
+        "eslint-plugin-react-hooks": "^2.5.1",
+        "gh-pages": "^3.1.0",
+        "typescript": "^4.0.3"
+    }
+}

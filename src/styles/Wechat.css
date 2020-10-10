@@ -1,0 +1,23 @@
+#wechat {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#wechat .content {
+}
+
+#wechat .content .qr-code {
+    width: 250px;
+    height: 250px;
+}
+
+@media (min-width: 922px) {
+    #wechat .content .qr-code {
+        width: 300px;
+        height: 300px;
+    }
+}

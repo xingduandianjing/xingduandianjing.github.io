@@ -1,0 +1,27 @@
+#branches {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#branches .content {
+}
+
+#branches .content .branch {
+}
+
+#branches .content .branch .branch-photo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+#branches .content .branch .branch-links {
+}
+
+#branches .content .branch .branch-links-item {
+    margin-bottom: 0.5rem;
+}

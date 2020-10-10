@@ -1,0 +1,44 @@
+#wifi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#wifi .content {
+}
+
+#wifi .content .stars-logo {
+    background: url('../images/logo.png') no-repeat;
+    width: 150px;
+    height: 110px;
+    background-size: 150px;
+    margin: 0 auto 35px;
+}
+
+#wifi .content .brand-heading {
+    font-size: 50px;
+}
+
+#wifi .content .intro-text {
+    font-size: 18px;
+}
+
+#wifi .content .wifi-links {
+}
+
+#wifi .content .wifi-links-item {
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 922px) {
+    #wifi .content .brand-heading {
+        font-size: 100px;
+    }
+
+    #wifi .content .intro-text {
+        font-size: 26px;
+    }
+}
