@@ -1,5 +1,10 @@
 星端电竞官方网站
 ==============
+
+[![GitHub 发布](https://img.shields.io/github/v/release/xingduandianjing/xingduandianjing.github.io?style=flat-square&color=blue&sort=semver&label=%E5%8F%91%E5%B8%83)](https://github.com/xingduandianjing/xingduandianjing.github.io/releases)
+[![GitHub 热门语言](https://img.shields.io/github/languages/top/xingduandianjing/xingduandianjing.github.io?style=flat-square&color=success)](https://github.com/xingduandianjing/xingduandianjing.github.io)
+[![GitHub 许可证](https://img.shields.io/github/license/xingduandianjing/xingduandianjing.github.io?style=flat-square&color=yellow&label=%E8%AE%B8%E5%8F%AF%E8%AF%81)](https://github.com/xingduandianjing/xingduandianjing.github.io/blob/master/LICENSE)
+
 这是星端电竞的官方网站。内容包括网站项目文件。
 
 ### 网站目录

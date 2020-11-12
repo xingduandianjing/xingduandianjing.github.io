@@ -19,6 +19,7 @@
         "website"
     ],
     "author": "广州市星端网络科技有限公司",
+    "license": "ISC",
     "bugs": {
         "url": "https://github.com/xingduandianjing/xingduandianjing.github.io/issues"
     },
