@@ -1,7 +1,7 @@
 {
     "name": "xingduandianjing.github.io",
     "displayName": "星端电竞",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "星端电竞官方网站",
     "main": "src/index.js",
     "private": true,
